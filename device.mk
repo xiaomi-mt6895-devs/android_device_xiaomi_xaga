@@ -18,7 +18,13 @@ PRODUCT_PACKAGES += \
     SettingsProviderOverlayXagaProCn \
     SettingsProviderOverlayXagaPro \
     SettingsProviderOverlayXagaProIn \
-    SystemUIResXaga
+    SystemUIResXaga \
+    WifiOverlayXaga \
+    WifiOverlayXagaCn \
+    WifiOverlayXagaIn \
+    WifiOverlayXagaPro \
+    WifiOverlayXagaProCn \
+    WifiOverlayXagaProIn
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
