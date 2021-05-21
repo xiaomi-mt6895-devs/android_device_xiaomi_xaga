@@ -12,6 +12,12 @@ PRODUCT_PACKAGES += \
     FrameworksResXaga \
     FrameworksResXagaPro \
     FrameworksResXagaProIn \
+    SettingsProviderOverlayXagaCn \
+    SettingsProviderOverlayXaga \
+    SettingsProviderOverlayXagaIn \
+    SettingsProviderOverlayXagaProCn \
+    SettingsProviderOverlayXagaPro \
+    SettingsProviderOverlayXagaProIn \
     SystemUIResXaga
 
 # Soong namespaces
