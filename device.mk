@@ -30,5 +30,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Rootdir
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init/init.xaga.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.xaga.rc
+
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 31
