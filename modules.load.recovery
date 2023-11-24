@@ -181,8 +181,6 @@ cache-parity.ko
 fan53870.ko
 wl2868c.ko
 simtray.ko
-uload_ind.ko
-load_track.ko
 sec.ko
 mtk-socinfo.ko
 emi-mpu-hook-v1.ko
