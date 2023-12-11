@@ -10,3 +10,6 @@ $(call inherit-product, device/xiaomi/mt6895-common/mt6895.mk)
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Shipping API Level
+PRODUCT_SHIPPING_API_LEVEL := 31
