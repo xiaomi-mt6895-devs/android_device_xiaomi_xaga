@@ -11,7 +11,8 @@ $(call inherit-product, device/xiaomi/mt6895-common/mt6895.mk)
 PRODUCT_PACKAGES += \
     FrameworksResXaga \
     FrameworksResXagaPro \
-    FrameworksResXagaProIn
+    FrameworksResXagaProIn \
+    SystemUIResXaga
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
