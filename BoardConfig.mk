@@ -17,3 +17,9 @@ BOOT_KERNEL_MODULES := $(BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD) $(BO
 
 # Display
 TARGET_SCREEN_DENSITY := 480
+
+# Security Patch Level
+VENDOR_SECURITY_PATCH := 2023-12-01
+
+# Inherit the proprietary files
+include vendor/xiaomi/xaga/BoardConfigVendor.mk
