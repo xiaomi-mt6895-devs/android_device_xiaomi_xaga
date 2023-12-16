@@ -60,6 +60,7 @@ thermal_interface.ko
 mtk_gpu_qos.ko
 nvmem-mt635x-efuse.ko
 mt6368-accdet.ko
+et7480.ko
 adsp-v2.ko
 audio_ipi.ko
 snd-soc-rt5512.ko
@@ -168,7 +169,6 @@ vdec-fmt.ko
 mtk-pwm.ko
 mtk_irtx_pwm.ko
 widevine_driver.ko
-trace_mmstat.ko
 pmsr.ko
 sec.ko
 spmtwam.ko
@@ -179,13 +179,3 @@ nvt36672c.ko
 elliptic.ko
 haptic.ko
 mi_thermal_interface.ko
-millet_binder.ko
-millet_core.ko
-millet_hs.ko
-millet_pkg.ko
-millet_sig.ko
-millet_oem_cgroup.ko
-binder_gki.ko
-miwill.ko
-miwill_mode_redudancy.ko
-minet.ko
