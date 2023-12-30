@@ -55,6 +55,14 @@ vendor/lib64/libgoodixhwfingerprint.so
 # Fingerprint (tee)
 vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta
 
+# NFC Configs
+vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nxp.conf
+vendor/etc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
+
+# NFC Firmware
+vendor/lib64/libsn100u_fw.so
+
 # Thermal (Xiaomi)
 vendor/bin/mi_thermald
 
