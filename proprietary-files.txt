@@ -155,6 +155,10 @@ vendor/firmware/novatek_nt36672e_l16_fw01.bin
 vendor/firmware/novatek_nt36672e_l16_fw02.bin
 vendor/firmware/novatek_nt36672e_l16_mp01.bin
 vendor/firmware/novatek_nt36672e_l16_mp02.bin
+vendor/firmware/novatek_nt36672e_l16_fw01.bin:vendor_ramdisk/lib/firmware/novatek_nt36672e_l16_fw01.bin
+vendor/firmware/novatek_nt36672e_l16_fw02.bin:vendor_ramdisk/lib/firmware/novatek_nt36672e_l16_fw02.bin
+vendor/firmware/novatek_nt36672e_l16_mp01.bin:vendor_ramdisk/lib/firmware/novatek_nt36672e_l16_mp01.bin
+vendor/firmware/novatek_nt36672e_l16_mp02.bin:vendor_ramdisk/lib/firmware/novatek_nt36672e_l16_mp02.bin
 
 # Vibrator Firmware
 vendor/firmware/aw8697_haptic.bin
