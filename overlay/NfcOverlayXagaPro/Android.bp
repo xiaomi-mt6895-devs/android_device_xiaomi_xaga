@@ -4,9 +4,7 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-prebuilt_etc {
-    name: "init.xaga.rc",
-    src: "init.xaga.rc",
-    sub_dir: "init",
+runtime_resource_overlay {
+    name: "NfcOverlayXagaPro",
     vendor: true,
 }
