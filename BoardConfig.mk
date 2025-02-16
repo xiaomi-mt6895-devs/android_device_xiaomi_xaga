@@ -14,11 +14,9 @@ TARGET_SCREEN_DENSITY := 420
 
 # HIDL
 ODM_MANIFEST_SKUS += \
-    xagain \
-    xagainpro
+    xagain
 
 ODM_MANIFEST_XAGAIN_FILES := $(DEVICE_PATH)/manifest_xagain.xml
-ODM_MANIFEST_XAGAINPRO_FILES := $(DEVICE_PATH)/manifest_xagain.xml
 
 # Kernel
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules/modules.load))

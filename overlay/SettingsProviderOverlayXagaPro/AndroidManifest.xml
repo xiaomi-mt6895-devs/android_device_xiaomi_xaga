@@ -8,6 +8,6 @@
     <overlay android:targetPackage="com.android.providers.settings"
                    android:isStatic="true"
                    android:priority="700"
-                   android:requiredSystemPropertyName="ro.boot.product.hardware.sku,ro.boot.hwc"
-                   android:requiredSystemPropertyValue="xagapro,GL"/>
+                   android:requiredSystemPropertyName="ro.boot.product.hardware.sku"
+                   android:requiredSystemPropertyValue="xagapro"/>
 </manifest>

@@ -35,22 +35,17 @@ $(foreach sku, xaga xagapro, \
 PRODUCT_PACKAGES += \
     FrameworksResXaga \
     FrameworksResXagaPro \
-    FrameworksResXagaProIn \
     NfcOverlayXaga \
     NfcOverlayXagaPro \
     SettingsProviderOverlayXagaCn \
     SettingsProviderOverlayXaga \
     SettingsProviderOverlayXagaIn \
-    SettingsProviderOverlayXagaProCn \
     SettingsProviderOverlayXagaPro \
-    SettingsProviderOverlayXagaProIn \
     SystemUIResXaga \
     WifiOverlayXaga \
     WifiOverlayXagaCn \
     WifiOverlayXagaIn \
-    WifiOverlayXagaPro \
-    WifiOverlayXagaProCn \
-    WifiOverlayXagaProIn
+    WifiOverlayXagaPro
 
 # Rootdir
 PRODUCT_PACKAGES += \
