@@ -7,12 +7,13 @@ ccu.img;AB
 dpm.img;AB
 gpueb.img;AB
 gz.img;AB
-lk.img;AB
+lk.img;AB|b8e1f60813cedcefc5ea8b36b1c3894a95e81692
 mcf_ota.img;AB
 mcupm.img;AB
 md1img.img;AB
 mvpu_algo.img;AB
 pi_img.img;AB
+preloader_xaga.bin:preloader_raw.img;AB
 scp.img;AB
 spmfw.img;AB
 sspm.img;AB
